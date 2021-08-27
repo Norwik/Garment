@@ -22,7 +22,7 @@
 </p>
 
 
-Garment is a thread safe connection pooling. It can be used to manage and reuse connections whether a database connection or other types. Most of golang packages supports connection pooling and closes idle connections if they exceed a certain number but a few don't which cause errors. Also you might want to preserve the same connection across sub packages without passing it as a parameter. In these cases you can use garment.
+Garment retains a single connection pool for different database types used inside you application (MySQL, Redis, Etcd ... etc). You might achieve the same by preserving the same connection pool across sub packages by passing it as a parameter.
 
 
 ## Documentation
