@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Spacewalkio/Garment/main/assets/logo.png?v=1.0.1" width="200" />
+    <img src="https://raw.githubusercontent.com/Spacewalkio/Garment/main/assets/logo.png?v=1.0.2" width="200" />
     <h3 align="center">Garment</h3>
     <p align="center">A Thread Safe Connection Pooling.</p>
     <p align="center">
@@ -7,10 +7,10 @@
             <img src="https://github.com/Spacewalkio/Garment/actions/workflows/build.yml/badge.svg">
         </a>
         <a href="https://github.com/spacewalkio/garment/releases">
-            <img src="https://img.shields.io/badge/Version-1.0.1-cyan.svg">
+            <img src="https://img.shields.io/badge/Version-1.0.2-cyan.svg">
         </a>
         <a href="https://goreportcard.com/report/github.com/spacewalkio/garment">
-            <img src="https://goreportcard.com/badge/github.com/spacewalkio/garment?v=1.0.1">
+            <img src="https://goreportcard.com/badge/github.com/spacewalkio/garment?v=1.0.2">
         </a>
         <a href="https://godoc.org/github.com/spacewalkio/garment">
             <img src="https://godoc.org/github.com/spacewalkio/garment?status.svg">
@@ -21,7 +21,7 @@
     </p>
 </p>
 
-Garment retains a single connection pool for different database types used inside you application (MySQL, Redis, Etcd ... etc). You can achieve the same by preserving the same connection pool across sub packages by passing it as a parameter.
+Garment retains a single connection pool for different database types used inside you application (MySQL, Redis, Etcd ... etc). Please note that garment won't be needed and not recommended if you already preserve the same connection pool across your application sub packages.
 
 
 ## Documentation
