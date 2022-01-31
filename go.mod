@@ -1,4 +1,4 @@
-module github.com/clevenio/garment
+module github.com/norwik/garment
 
 go 1.19
 
