@@ -148,6 +148,6 @@ We are an open source, community-driven project so please feel free to join us. 
 
 ## License
 
-© 2021, SpaceWalk. Released under [MIT License](https://opensource.org/licenses/mit-license.php).
+© 2021, Cleven. Released under [MIT License](https://opensource.org/licenses/mit-license.php).
 
-**Garment** is authored and maintained by [@SpaceWalk](http://github.com/clevenio).
+**Garment** is authored and maintained by [@Cleven](http://github.com/clevenio).
